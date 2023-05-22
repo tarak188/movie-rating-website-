@@ -1,0 +1,150 @@
+body{
+    background:url("ph.jpg");
+     
+   }
+ .main {
+   background-color: darkred;
+ }
+   .haute{
+     width: 30px auto ;
+     display:flex ;
+     align-items: center  ;
+      
+ } 
+ img{
+     width :150px;
+     height: 70 px ;
+     margin-top: 20px;
+     margin-left: 20px  ;
+ 
+ }
+     .menu{
+         width : 400px;
+         float: left;
+         height : 70px ;
+     }
+     ul{
+         float: left;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     ul li {
+         list-style: none;
+         margin-left: 62px;
+         margin-top: 27px;
+         font-size: 14px ;
+ 
+ 
+     }
+     ul li a{
+         text-decoration: none;
+         color:gold;
+         font-family: Arial;
+          font-weight: bold;
+          transition: 0.4s ease-in-out;
+ 
+     }
+     ul li a:hover{
+         color: yellow;
+     }
+     .srech{
+         width:330px;
+         float:left;
+         margin-left:270px;
+     }
+     .rech{
+         font-family: 'Times New Roman';
+         width: 200px;
+         height: 40px;
+         background:transparent;
+         border :1px solid black ;
+         margin-top: 13px;
+         color:#fff;
+         border-right: none;
+         font-size:16px;
+         float: left;
+         padding: 10px;
+         border-bottom-left-radius: 5px;
+         border-top-left-radius: 5px;
+ 
+ 
+ 
+ 
+     }
+     .btn{
+         width: 100px;
+         height: 40px;
+         background-color: gold;
+         border :2px solid  yellow;
+         margin-top:13px;
+         color:#fff;
+         font-size: 15px;
+         border-bottom-right-radius: 5px;
+         
+ 
+ 
+     }
+     .btn:focus {
+ 
+     
+     outline:none;
+     }
+     .rech:focus{
+         outline:none;
+     }
+ /* Slideshow container */
+ .slideshow-container {
+   max-width: 1000px;
+   position: relative;
+   margin: auto;
+   left: 70px;
+ }
+ 
+ /* Next & previous buttons */
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   padding: 16px;
+   margin-top: -22px;
+   color: white;
+   font-weight: bold;
+   font-size: 30px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+ 
+ /* Position the "next button" to the right */
+ .next {
+   right: 200px;
+   border-radius: 3px 0 0 3px;
+ }
+ .prev{
+   left: 30px;
+ }
+ /* On hover, add a grey background color */
+ .prev:hover, .next:hover {
+   background-color: #f1f1f1;
+   color: black;
+ }
+ 
+ .trend{
+     color: yellow;
+     top: 100px;
+     right: 750px;
+     position: absolute;
+     font-size: 30px;
+ }
+ .bodyxd {background: lightblue url("hh.jpg")  }  
+ .imagesxd{background-color: black;}
+ .p2{color: white;
+ font-size: 20px;
+ text-align: center;
+ }
+ .img:hover{
+   color: white;
+ }
+ 

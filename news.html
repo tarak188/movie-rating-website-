@@ -1,0 +1,274 @@
+<html>
+<head>
+<title>Movies reviews </title>
+<style>
+  body{
+   background:url("ph.jpg");
+    
+  }
+.main {
+  background-color: darkred;
+}
+  .haute{
+    width: 30px auto ;
+    display:flex ;
+    align-items: center  ;
+     
+} 
+img{
+    width :150px;
+    height: 70 px ;
+    margin-top: 20px;
+    margin-left: 20px  ;
+
+}
+    .menu{
+        width : 400px;
+        float: left;
+        height : 70px ;
+    }
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ul li {
+        list-style: none;
+        margin-left: 62px;
+        margin-top: 27px;
+        font-size: 14px ;
+
+
+    }
+    ul li a{
+        text-decoration: none;
+        color:gold;
+        font-family: Arial;
+         font-weight: bold;
+         transition: 0.4s ease-in-out;
+
+    }
+    ul li a:hover{
+        color: yellow;
+    }
+    .srech{
+        width:330px;
+        float:left;
+        margin-left:270px;
+    }
+    .rech{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 40px;
+        background:transparent;
+        border :1px solid black ;
+        margin-top: 13px;
+        color:#fff;
+        border-right: none;
+        font-size:16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+
+
+
+
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+        background-color: gold;
+        border :2px solid  yellow;
+        margin-top:13px;
+        color:#fff;
+        font-size: 15px;
+        border-bottom-right-radius: 5px;
+        
+
+
+    }
+    .btn:focus {
+
+    
+    outline:none;
+    }
+    .rech:focus{
+        outline:none;
+    }
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  left: 70px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 200px;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  left: 30px;
+}
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.trend{
+    color: yellow;
+    top: 100px;
+    right: 750px;
+    position: absolute;
+    font-size: 30px;
+}
+.bodyxd {background: lightblue url("hh.jpg")  }  
+.imagesxd{background-color: black;}
+.p2{color: white;
+font-size: 20px;
+text-align: center;
+}
+.img:hover{
+  color: white;
+}
+
+</style>
+</head>
+<body>
+  <div class="main">
+    <div class="haute">
+        <div class="icon">
+            <img src="tunisbest-logo.png">
+        </div>
+        <div>
+        
+            <ul>
+                <li> <a href ="page1.html">accueil</a></li>
+               
+                <li> <a href ="inscri.html"> contact</a></li>
+                <li> <a href="news.html"> news</a></li>
+                
+            </ul>
+        </div>
+       <div class="srech">
+           <input class="rech" type="search" placeholder="rechercher">
+           <input class="btn"  type="button" value="rechercher">
+       </div>
+       
+    </div>
+</div>
+<div class="bodyxd">
+<div class="trend">
+
+      
+    </div>
+      <div class="slideshow-container">
+        <div class="mySlides1">
+         <a href="index.html"><img src="jhon.jpg" style="width:80%" height="500px" width="100px"> </a> 
+        </div>
+      
+        <div class="mySlides1">
+          <a href="spider.html"><img src="spider.jpg" style="width:80%" height="500px" width="100px"></a>
+        </div>
+      
+        <div class="mySlides1">
+        <a href="girl.html"><img src="girl.jpg" style="width:80%" height="500px" width="100px"></a>
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      </div>
+      <br>
+<br>
+    </div>
+<br>
+<br>
+<div class="imagesxd">
+  <div class="p2">
+    <br>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trending This week</p>
+</div >
+<div style="margin-left:10px">
+  <a href=""><img src="random.jpg"> </a>
+  <a href=""><img src="poster-342.jpg" height="228px"> </a>
+  <a href=""><img src="1.jpg" height="235px"></a>
+  <a href=""><img src="2.jpg" height="235px"></a>
+  <a href=""><img src="it.jpg" height="235px"></a>
+  <a href=""><img src="3.jpg" height="235px"></a>
+  <a href=""><img src="5.jpg" height="235px"></a>
+  <a href=""><img src="7.jpg" height="235px"></a>
+</div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script>
+        let slideIndex = [1,1];
+        let slideId = ["mySlides1", "mySlides2"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+        
+        function plusSlides(n, no) {
+          showSlides(slideIndex[no] += n, no);
+        }
+        
+        function showSlides(n, no) {
+          let i;
+          let x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}    
+          if (n < 1) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex[no]-1].style.display = "block";  
+        }
+        </script>
+      
+      
+
+    </div>
+
+</body>
+
+
+
+
+
+</html>
