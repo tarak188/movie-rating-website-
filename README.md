@@ -1,2 +1,20 @@
 # movie-rating-website-
-"Tunibest" is a movie rating website like mdb made from HTML/CSS/JAVASCRIPT/PHP
+"Tunibest" is a movie rating website like imdb made from HTML/CSS/JAVASCRIPT/PHP
+please read those points i wrote : 
++for this website try to go to page1 open it with your editor and change the form action to connect
+so the function will work, i personally changed it so you can understand the website functionality
+but if you want to use it for your own work follow my steps.
+"connect.php":php function to connect to the data base.
+
++don't forget to change replace all the php function with your database/table names.
+
++i purposly added the review option to page1 (before sign in) when it only belong to 
+page2 (after sign in) just for people to understandthe concept of my website.
+
++i tried to make the recherche button thing work but i coulden't sience apparently
+i can only make it work with reactjs or angular which i haven't learnt yet but you have
+another method to do it please hit me up !
+
+
+
+
